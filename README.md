@@ -2,8 +2,6 @@
 
 ![Design preview for the 3-column preview card component coding challenge](./design/desktop-preview.jpg)
 
-# Frontend Mentor - Order summary card
-
 This is my solution to [Column preview card component](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-), a very nice looking component.
 
 ## Table of contents
