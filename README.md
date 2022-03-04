@@ -25,7 +25,7 @@ The challenge was to build a simple component using Frontend technologies
 
 Solution URL: [Click Here]()
 
-Live Preview: [Click Here]()
+Live Preview: [Click Here](https://mohammed997732.github.io/3-column-preview-card-component/)
 
 ## My process
 
