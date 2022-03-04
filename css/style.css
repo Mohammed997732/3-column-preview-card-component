@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+
+/* 
+For Font Size
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+For Spacing
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  transition: 0.3s all;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  line-height: 1;
+  background-color: #f2f2f2;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.component {
+  max-width: 95rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.card {
+  padding: 4.8rem;
+  padding-top: 6.4rem;
+  position: relative;
+}
+.card-1 {
+  background-color: #e38826;
+}
+.card-2 {
+  background-color: #006970;
+}
+.card-3 {
+  background-color: #004241;
+}
+.card-image-container {
+  margin-bottom: 2.4rem;
+}
+.card-heading {
+  margin-bottom: 2.4rem;
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 3.6rem;
+  text-transform: uppercase;
+}
+.card-paragraph {
+  font-size: 1.4rem;
+  line-height: 1.8;
+  color: #ffffffbf;
+  /* padding-right: rem; */
+  margin-bottom: 12.8rem;
+}
+.btn {
+  display: inline-block;
+  background-color: #fff;
+  padding: 1.6rem 3.2rem;
+  font-size: 1.4rem;
+  border-radius: 50rem;
+  position: absolute;
+  bottom: 5rem;
+  left: 5rem;
+}
+
+.card-1 .btn {
+  color: #e38826;
+}
+.card-2 .btn {
+  color: #006970;
+}
+.card-3 .btn {
+  color: #004241;
+}
+.btn:hover {
+  color: #fff;
+  box-shadow: 0 0 0 2px #fff inset;
+  background-color: transparent;
+}
+@media (max-width: 768px) {
+  .component {
+    grid-template-columns: 1fr;
+    max-width: 40rem;
+  }
+  .card-paragraph {
+    margin-bottom: 6.4rem;
+  }
+  .btn {
+    left: 4rem;
+  }
+} ;
